@@ -52,8 +52,8 @@ module.exports = {
   // you provide. See the documentation for details.
   links: [
     {
-      name: 'GitHub',
-      link: 'https://github.com/nanzhi63',
+      name: 'QQ',
+      link: 'https://pd.qq.com/s/cp4k08j75',
     },
   ],
 
