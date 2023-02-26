@@ -39,7 +39,6 @@ module.exports = {
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
     "<a href='https://takagi.zhisite.top' target='_blank' rel='nofollow noopener'><span>Built by 南栀</span></a><br><span id='busuanzi_container_site_pv'>本站总访问量<span id='busuanzi_value_site_pv'></span>次</span><br><span id='busuanzi_container_site_uv'>本站访客数<span id='busuanzi_value_site_uv'></span>人次</span>", 
-,
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
