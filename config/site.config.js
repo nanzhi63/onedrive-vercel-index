@@ -38,8 +38,34 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-   '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />本资源站采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。<br><a>友链|</a><a href="https://takagi3.cn" target="_blank">高木同学资料站</a><a href="https://karakai-jouzu-no-takagi-san.fandom.com/zh/wiki/" target="_blank">|擅长捉弄的高木同学wiki</a><a href="https://club.takgai3.cn" target="_blank">|高木同学论坛</a>
-',
+   '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />本资源站采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。<br><a>友链|</a><a href="https://takagi3.cn" target="_blank">高木同学资料站</a><a href="https://karakai-jouzu-no-takagi-san.fandom.com/zh/wiki/" target="_blank">|擅长捉弄的高木同学wiki</a><a href="https://club.takagi3.cn" target="_blank">|高木同学论坛</a>',
+  // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
+  // the directories in which you have .password set. Check the documentation for details.
+  protectedRoutes: ['/🌞 Private folder/u-need-a-password', '/🥟 Some test files/Protected route'],
+
+  // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
+  email: "",
+
+  // [OPTIONAL] This is an array of names and links for setting your social information and links.
+  // In the latest update, all brand icons inside font awesome is supported and the icon to render is based on the name
+  // you provide. See the documentation for details.
+  links: [
+    {
+      name: 'QQ',
+      link: 'https://pd.qq.com/s/cp4k08j75',
+    },
+    {
+      name: 'bilibili',
+      link: 'https://space.bilibili.com/496009437',
+    },
+  ],
+
+  // This is a day.js-style datetime format string to format datetimes in the app. Ref to
+  // https://day.js.org/docs/en/display/format for detailed specification. The default value is ISO 8601 full datetime
+  // without timezone and replacing T with space.
+  datetimeFormat: 'YYYY-MM-DD HH:mm:ss',
+}
+
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
   protectedRoutes: ['/🌞 Private folder/u-need-a-password', '/🥟 Some test files/Protected route'],
