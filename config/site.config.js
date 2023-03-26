@@ -38,7 +38,7 @@ module.exports = {
   // [OPTIONAL] The footer component of your website. You can write HTML here, but you need to escape double
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
-   '<span id='busuanzi_container_site_pv'>本站总访问量<span id='busuanzi_value_site_pv'></span>次</span><br><span id='busuanzi_container_site_uv'>本站访客数<span id='busuanzi_value_site_uv'></span>人次</span><br><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />本资源站采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。<br><a>友链|</a><a href="https://takagi3.cn" target="_blank">高木同学资料站</a><a href="https://karakai-jouzu-no-takagi-san.fandom.com/zh/wiki/" target="_blank">|擅长捉弄的高木同学wiki</a>
+   '<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />本资源站采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。<br><a>友链|</a><a href="https://takagi3.cn" target="_blank">高木同学资料站</a><a href="https://karakai-jouzu-no-takagi-san.fandom.com/zh/wiki/" target="_blank">|擅长捉弄的高木同学wiki</a><a href="https://club.takgai3.cn" target="_blank">|高木同学论坛</a>
 ',
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
